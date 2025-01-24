@@ -22,7 +22,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Welcome">
-        <Stack.Screen name="Welcome" component={Welcome} options={{ headerShown: false }} />
+        <Stack.Screen name="Welcoooooome" component={Welcome} options={{ headerShown: false }} />
         <Stack.Screen name="adminLogin" component={AdminLogin} options={{ headerShown: false }} />
         <Stack.Screen name="employeeLogin" component={EmployeeLogin} options={{ headerShown: false }} />
         <Stack.Screen name="AdminDash" component={AdminDashboard} options={{ headerShown: false }} />
